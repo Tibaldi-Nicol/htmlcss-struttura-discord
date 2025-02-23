@@ -17,13 +17,14 @@ body {
 }
 
 
-/* header */
+/* header do il colore e laltezza essendo senza contenuto*/
 
 header{
     height: 600px;
     background-color: blue;
 
 }
+/*è il contenutore del box login arancione qui metto le regole flexbox per controllarlo*/
 
 .logo-flex{
     background-color: lightblue;
@@ -33,6 +34,8 @@ header{
     align-items: center;
 
 }
+
+/*vero e proprio login*/
 
 .login{
 
@@ -50,6 +53,7 @@ header{
 
 } 
 
+/*riquadri interni al login divisi per inserire testo*/
 .box-login{
     display: flex;
     text-align: left;
@@ -91,4 +95,6 @@ header{
  
 
 }
+
+/*fine login*/
 
