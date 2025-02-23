@@ -302,7 +302,78 @@ header{
 
 /*fine main content 4 verde*/
 
-/*inizio main content contenuti divisi*/
+/*inizio main content contenuti divisi footer*/
+
+.footer-content-black{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #23272A;
+    
+}
+/*non centro il box come da screen (esercizio assegnato)*/
+.footer-content-black-box{
+
+    height: 500px;
+    width: 1200px;
+    border-style: dotted;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer-content-black-box-1{
+    height: 100%;
+    width: 18%;
+    flex-grow: 1;
+   
+    background-color: pink;
+    border-style: dotted;
+}
+
+.footer-content-black-box-2{
+    height: 100%;
+    flex-grow: 1;
+    border: 2px dashed white;
+    
+    background-color: #20B3AA;
+    
+}
+
+.footer-content-black-box-3{
+    height: 100%;
+    flex-grow: 1;
+    border: 2px dashed white;
+   
+    background-color: #20B3AA;
+}
+
+.footer-content-black-box-4{
+    height: 100%;
+    flex-grow: 1;
+    background-color: #20B3AA;
+    border: 2px dashed white;
+}
+
+.footer-content-black-box-5{
+    height: 100%;
+    flex-grow: 1;
+    border: 2px dashed white;
+    
+    background-color: #20B3AA;
+}
+
+/*fine main content contenuti divisi footer*/
+
+/*inizio  real footer*/
+
+
+
+
+
 
 
 
