@@ -121,3 +121,121 @@ header{
 
 }
 
+/*fine header*/
+
+/*per il main content 1 uso le stesse misure dell'header in modo da centrare bene i riquadri interni*/
+
+.main-content-1{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+ 
+
+/*usato per vedere il risultato e limpostazione lascio commentato in caso di necessita*/
+.main-content-1-box{
+    width: 1200px;
+    height: 500px;
+    border-style: dotted;
+    display: flex;
+    
+    
+}
+
+/*dentro al riquadro box ci sono altri due riquadri per 2 contenuti diversi*/
+
+/*flex-grow il mio elemento puo allargarsi (1) flex-shrink autorizzazione a stringersi no (0)*/
+
+/*blu*/
+
+.main-content-1-box-blue{
+    background-color: lightblue;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 100%;
+    width: 65%;
+    border-style: dotted;
+    
+   
+}
+
+/*rosa*/
+.main-content-1-box-rosa{
+    background-color: palevioletred;
+    height: 100%;
+    width: 35%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-style: dotted;
+    
+}
+
+/*fine main content 1*/
+
+
+/*inizio main content 2 */
+
+
+
+.main-content-2{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+    
+}
+
+
+/*usato per vedere il risultato e limpostazione lascio commentato in caso di necessita*/
+.main-content-2-box{
+    width: 1200px;
+    height: 500px;
+    border-style: dotted;
+    display: flex;
+    
+    
+}
+
+/*dentro al riquadro box ci sono altri due riquadri per 2 contenuti diversi*/
+
+/*flex-grow il mio elemento puo allargarsi (1) flex-shrink autorizzazione a stringersi no (0)*/
+
+/*blu*/
+
+.main-content-2-box-blue{
+    background-color: lightblue;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 100%;
+    width: 35%;
+    border-style: dotted;
+    
+   
+}
+
+/*rosa*/
+.main-content-2-box-rosa{
+    background-color: palevioletred;
+    height: 100%;
+    width: 65%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-style: dotted;
+    
+}
+
+/*fine main content 2*/
+
+/*inizio-main content 3*/
+
+
+
+
+
+
+
+
