@@ -370,6 +370,77 @@ header{
 
 /*inizio  real footer*/
 
+#divisorio{
+    height: 2px;
+    width: max-content;
+    background-color: white;
+
+}
+
+
+.real-footer{
+    display: flex;
+    height: 100px;
+    
+    justify-content: center;
+    align-items: flex-end;
+   
+    background-color: #23272A;
+    
+}
+
+.footer-content{
+
+    height: 80px;
+    width: 1200px;
+    background-color: #7FFFD5;
+
+
+
+
+
+}
+
+.footer-box-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+   
+    font-size: medium;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.footer-box-2{
+    height: 35px;
+    width: 100px;
+    background-color: pink;
+    outline: 3px dashed black;
+  
+    
+   
+    
+
+}
+
+
+.footer-box-1{
+    height: 35px;
+    width: 100px;
+    background-color: pink;
+    outline: 3px dashed black;
+    
+    
+    
+
+}
+
+
+
+
 
 
 
