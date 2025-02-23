@@ -284,6 +284,26 @@ header{
 
 /*inizio main content 4 verde*/
 
+.main-content-4-verde{
+    display: flex;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+}
+
+.verde{
+    width: 1200px;
+    height: 1000px;
+    border-style: dotted;
+    display: flex;
+    background-color: green;
+}
+
+/*fine main content 4 verde*/
+
+/*inizio main content contenuti divisi*/
+
 
 
 
