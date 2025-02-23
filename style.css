@@ -22,8 +22,10 @@ body {
 header{
     height: 600px;
     background-color: blue;
+    
 
 }
+
 /*è il contenutore del box login arancione qui metto le regole flexbox per controllarlo*/
 
 .logo-flex{
@@ -97,4 +99,25 @@ header{
 }
 
 /*fine login*/
+
+
+/*sezione che racchiude il riquadro rosa per controllarlo con flexbox*/
+
+/*avendo preso la misura di header in altezza 600px devo riportare laltezza meno i 100 px del logo-login in modo che la section possa centrarsi*/
+
+.header-main{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*riquadro rosa*/
+.header-main-content{
+    background-color: palevioletred;
+    height: 400px;
+    width: 900px;
+    border-style: dotted;
+
+}
 
