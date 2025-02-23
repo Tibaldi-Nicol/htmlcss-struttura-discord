@@ -232,6 +232,57 @@ header{
 
 /*inizio-main content 3*/
 
+.main-content-3{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+ 
+
+
+.main-content-3-box{
+    width: 1200px;
+    height: 500px;
+    border-style: dotted;
+    display: flex;
+    
+    
+}
+
+/*dentro al riquadro box ci sono altri due riquadri per 2 contenuti diversi*/
+
+/*flex-grow il mio elemento puo allargarsi (1) flex-shrink autorizzazione a stringersi no (0)*/
+
+/*blu*/
+
+.main-content-3-box-blue{
+    background-color: lightblue;
+    flex-grow: 1;
+    flex-shrink: 0;
+    height: 100%;
+    width: 65%;
+    border-style: dotted;
+    
+   
+}
+
+/*rosa*/
+.main-content-3-box-rosa{
+    background-color: palevioletred;
+    height: 100%;
+    width: 35%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border-style: dotted;
+    
+}
+
+/*fine main content 3*/
+
+/*inizio main content 4 verde*/
 
 
 
